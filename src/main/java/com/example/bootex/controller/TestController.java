@@ -9,4 +9,8 @@ public class TestController {
     public String test(){
         return "test";
     }
+    @GetMapping(value="/ssh")
+    public String ssh(){
+        return "ssh";
+    }
 }
