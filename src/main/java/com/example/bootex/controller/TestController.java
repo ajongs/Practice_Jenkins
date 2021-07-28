@@ -15,6 +15,6 @@ public class TestController {
     }
     @GetMapping(value="/hope")
     public String hope(){
-        return "hope";
+        return "hope22";
     }
 }
