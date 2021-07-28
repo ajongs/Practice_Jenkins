@@ -13,4 +13,8 @@ public class TestController {
     public String ssh(){
         return "ssh";
     }
+    @GetMapping(value="/hope")
+    public String hope(){
+        return "hope";
+    }
 }
