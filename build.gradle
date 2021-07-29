@@ -5,8 +5,8 @@ plugins {
     id 'war'
 }
 bootWar{
-    archiveBaseName = 'ROOT'
-    archiveFileName = 'ROOT.war'
+    archiveBaseName = 'ROOT2'
+    archiveFileName = 'ROOT2.war'
 
 }
 group = 'com.example'
